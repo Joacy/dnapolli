@@ -1,0 +1,48 @@
+.nome-pagina {
+  padding: 25px 0px; }
+  .nome-pagina h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 10; }
+  .nome-pagina .icone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 10; }
+    .nome-pagina .icone i {
+      font-size: 6px;
+      color: #ffffff;
+      margin: 0px 8px; }
+  .nome-pagina .icone:before {
+    content: "";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    background: #cccccc;
+    width: 50px;
+    height: 2px; }
+  .nome-pagina .icone:after {
+    content: "";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    right: 0;
+    background: #cccccc;
+    width: 50px;
+    height: 2px; }

@@ -1,0 +1,293 @@
+@import "cabecalho";
+@import "header";
+@import "secao-topo";
+@import "nome-pagina";
+@import "botao-enviar";
+
+h3 {
+  font-size: 32px;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #5c5c68;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+p.negrito {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+p:last-child {
+  margin: 0;
+}
+
+section {
+  padding-top: 90px;
+}
+
+.secao1 {
+  background: url("../imagens/atuais/IMG_2981.png") right center no-repeat;
+  padding-bottom: 90px;
+
+  .col-12.col-md-9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.secao2 {
+  background: #efe6da;
+  overflow: visible;
+
+  .missao {
+    display: flex;
+    align-items: center;
+    margin-bottom: -120px;
+    margin-top: -100px;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+.secao3 {
+  background: #ffffff;
+
+  .col-12.col-md-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .promessa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+.secao4 {
+  padding: 0px;
+  background: #efe6da;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .galeria {
+    border: 10px solid #efe6da;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0;
+    max-width: 90%;
+
+    .foto {
+      position: relative;
+      z-index: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .foto:before {
+      content: "";
+      position: absolute;
+      z-index: 10;
+      width: 100%;
+      height: 100%;
+      background: rgba(#000000, 0.3);
+    }
+
+    .foto:hover:before {
+      width: calc(100% - 40px);
+      height: calc(100% - 40px);
+      opacity: 0.2;
+      transition: 0.25s;
+    }
+  }
+}
+
+.secao5 {
+  background: #ffffff;
+  .imagens {
+    display: flex;
+    align-items: center;
+
+    img.primeira {
+      position: relative;
+      z-index: 10;
+      width: 60%;
+      height: auto;
+      object-fit: contain;
+    }
+    img.segunda {
+      position: relative;
+      margin-left: -40%;
+      z-index: 0;
+      width: 70%;
+      margin-top: -30px;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+.secao6 {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    a.botao-enviar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      white-space: normal;
+      background: transparent;
+      text-decoration: none;
+      border: 2px solid #000000;
+      line-height: 40px;
+      padding: 0 30px;
+      position: relative;
+      width: auto;
+      margin-top: 30px;
+
+      i {
+        position: relative;
+        z-index: 10;
+        color: #363636;
+        font-size: 24px;
+        margin-right: 10px;
+      }
+
+      span {
+        position: relative;
+        z-index: 10;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: #363636;
+        font-weight: 700;
+      }
+
+      .fundo {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: -2px;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        z-index: 1;
+        background: transparent;
+        box-shadow: none;
+      }
+    }
+
+    a.botao-enviar:hover {
+      transition: 0.7s;
+      i,
+      span {
+        color: #ffffff;
+      }
+
+      .fundo {
+        background: #e27900;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        animation: zoom 0.7s;
+      }
+    }
+  }
+}
+
+@import "footer";
+
+@media screen and (max-width: 991px) {
+  .secao4 {
+    .galeria {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .secao1 {
+    background: url("../imagens/atuais/IMG_2981.png") bottom right no-repeat;
+  }
+
+  .secao2 {
+    margin-top: 50px;
+
+    .missao {
+      justify-content: center;
+      margin-bottom: 50px;
+
+      img {
+        max-width: 360px;
+      }
+    }
+  }
+
+  .secao3 {
+    background: #ffffff;
+
+    .promessa {
+      justify-content: center;
+      margin-top: 30px;
+      img {
+        max-width: 360px;
+      }
+    }
+  }
+
+  .secao4 {
+    .galeria {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .secao5 {
+    .imagens {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

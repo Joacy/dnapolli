@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta meta name="keywords" content="">
+
+    <title>Dnappoli</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/cardapio.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+
+    <link rel="shortcut icon" href="assets/imagens/icone.png" type="image/x-icon">
+    <link rel="icon" href="assets/imagens/icone.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <ul class="navbar-nav desktop">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cardapio.html">Cardápio</a>
+                    </li>
+                </ul>
+
+                <a class="navbar-brand" href="index.html"><img src="assets/imagens/logo-cortada.png"></a>
+
+                <ul class="navbar-nav desktop">
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservas.html">Reservas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item delivery">
+                        <a class="nav-link" href="https://deliverydireto.com.br/dnappolipizzaria/bahia"
+                            target="_blank">Delivery</a>
+                    </li>
+                </ul>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                    <span>Menu</span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mobile">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="cardapio.html">Cardápio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item delivery">
+                            <a class="nav-link" href="https://deliverydireto.com.br/dnappolipizzaria/bahia"
+                                target="_blank">Delivery</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="secao-topo" data-pagina="cardapio">
+        <div class="coluna-flex alinha-centro">
+            <h1>CARDÁPIO</h1>
+            <div class="icone">
+                <i class="fas fa-circle"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="nome-pagina">
+        <div class="coluna-flex alinha-centro">
+            <h1>CARDÁPIO</h1>
+            <div class="icone">
+                <i class="fas fa-circle"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao1">
+        <div class="container">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="tabela1" data-toggle="tab" href="#aba1" role="tab"
+                        aria-controls="aba1" aria-selected="true">
+                        COFFEE
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tabela2" data-toggle="tab" href="#aba2" role="tab" aria-controls="aba2"
+                        aria-selected="true">
+                        MILK
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tabela3" data-toggle="tab" href="#aba3" role="tab" aria-controls="aba3"
+                        aria-selected="true">
+                        COCKTAIL
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tabela4" data-toggle="tab" href="#aba4" role="tab" aria-controls="aba4"
+                        aria-selected="true">
+                        BEVERAGES
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tabela5" data-toggle="tab" href="#aba5" role="tab" aria-controls="aba5"
+                        aria-selected="true">
+                        TEA
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tabela6" data-toggle="tab" href="#aba6" role="tab" aria-controls="aba6"
+                        aria-selected="true">
+                        CAKE
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="aba1" role="tabpanel" aria-labelledby="tabela1">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna1 animated fadeInLeft">
+                                <h3>COFFEE</h3>
+                                <img src="assets/imagens/menu-1.png">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna2">
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/coffee-1.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/coffee-2.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Milk ice</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>45.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/coffee-3.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Mudslide Recipe Milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>29.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/coffee-4.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Sarati Lassi Milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="aba2" role="tabpanel" aria-labelledby="tabela2">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna2">
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/milkli-1.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/milkli-2.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/milkli-3.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/milkli-4.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna1 animated fadeInRight">
+                                <h3>MILK</h3>
+                                <img src="assets/imagens/menu-2.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="aba3" role="tabpanel" aria-labelledby="tabela3">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna1 animated fadeInLeft">
+                                <h3>COKTAIL</h3>
+                                <img src="assets/imagens/menu-3.png">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna2">
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/coctail-1.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/coctail-2.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/coctail-3.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/coctail-4.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="aba4" role="tabpanel" aria-labelledby="tabela4">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna2">
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/br-1.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/br-2.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/br-3.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/br-4.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna1 animated fadeInRight">
+                                <h3>BEVERAGES</h3>
+                                <img src="assets/imagens/menu-4.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="aba5" role="tabpanel" aria-labelledby="tabela5">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna1 animated fadeInLeft">
+                                <h3>TEA</h3>
+                                <img src="assets/imagens/menu-5.png">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna2">
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/tea-1.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/tea-2.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/tea-3.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInRight">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/tea-4.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="aba6" role="tabpanel" aria-labelledby="tabela6">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna2">
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/cake-1.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/cake-2.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/cake-3.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card animated fadeInLeft">
+                                    <div class="card-header">
+                                        <img src="assets/imagens/cake-4.png">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="titulo"><span>Fresh milk</span><span class="preco"><i
+                                                    class="fas fa-dollar-sign"></i>39.00</span></h5>
+                                        <p>Our selection of coffee beans have been rigorously tested with every
+                                            different type of coffee machine to make.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="coluna1 animated fadeInRight">
+                                <h3>CAKE</h3>
+                                <img src="assets/imagens/menu-6.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div>
+                            <h3>About us</h3>
+                            <br>
+                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                ad
+                                squid.</p>
+                            <br>
+                            <p><i class="fas fa-envelope"></i>email@email.org</p>
+                            <br>
+                            <p><i class="fas fa-phone"></i>+(00)123456789</p>
+                            <br>
+                            <p><i class="fas fa-home"></i>198 West 21th Street, Suite 721 New York NY 10010</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div>
+                            <h3>For Business</h3>
+                            <br>
+                            <ul class="business-list">
+                                <li><a href="#">Office Coffee</a></li>
+                                <li><a href="#">Food Wars</a></li>
+                                <li><a href="#">Affliate Program</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 p4">
+                        <div>
+                            <h3>Follow Us</h3>
+                            <br>
+                            <p>Follow Origin on the following social network sites.</p>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <div class="linha-flex alinha-centro justifica-centro">
+                    <h6>Todos os direitos reservados. Azundigital</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+
+    <script type="text/javascript">
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            var width = $(window).width();
+
+            if (scroll >= 128) {
+                $('#header').addClass('bg-fixed');
+            } else {
+                $('#header').removeClass('bg-fixed');
+            }
+
+        });
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

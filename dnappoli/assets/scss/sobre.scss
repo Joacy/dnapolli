@@ -1,0 +1,195 @@
+@import "cabecalho";
+@import "header";
+@import "secao-topo";
+@import "nome-pagina";
+
+h3 {
+  font-size: 32px;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #5c5c68;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+p.negrito {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+p:last-child {
+  margin: 0;
+}
+
+section {
+  padding-top: 90px;
+}
+
+.secao1 {
+  //background: url("../imagens/atuais/IMG_2960.jpg") right center no-repeat;
+
+  .imagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    img.primeira {
+      position: relative;
+      z-index: 10;
+    }
+    img.segunda {
+      position: relative;
+      margin-top: -70px;
+      z-index: 0;
+    }
+  }
+}
+
+.secao2 {
+  background: #efe6da;
+  overflow: visible;
+
+  .missao {
+    display: flex;
+    align-items: center;
+    margin-bottom: -120px;
+    margin-top: -100px;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+.secao3 {
+  background: #ffffff;
+
+  .col-12.col-md-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .promessa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+.secao4 {
+  padding: 0px;
+
+  #slide-galeria {
+    height: 360px;
+
+    .item{
+      img{
+        max-height: 360px;
+        width: auto;
+        object-fit: contain;
+      }
+    }
+
+    .owl-nav {
+      display: none;
+    }
+
+    .owl-dots {
+      display: none;
+    }
+  }
+}
+
+.secao5 {
+  background: #ffffff;
+  .imagens {
+    display: flex;
+    align-items: center;
+
+    img.primeira {
+      position: relative;
+      z-index: 10;
+      width: 60%;
+      height: auto;
+      object-fit: contain;
+    }
+    img.segunda {
+      position: relative;
+      margin-left: -40%;
+      z-index: 0;
+      width: 70%;
+      margin-top: -30px;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+@import "footer";
+
+@media screen and (max-width: 767px) {
+  .secao1 {
+    //background: url("../imagens/atuais/IMG_2960.jpg") bottom right no-repeat;
+    .imagens {
+      margin-top: 30px;
+    }
+  }
+
+  .secao2 {
+    margin-top: 50px;
+
+    .missao {
+      justify-content: center;
+      margin-bottom: 50px;
+
+      img {
+        max-width: 360px;
+      }
+    }
+  }
+
+  .secao3 {
+    background: #ffffff;
+
+    .promessa {
+      justify-content: center;
+      margin-top: 30px;
+      img {
+        max-width: 360px;
+      }
+    }
+  }
+
+  .secao5 {
+    .imagens {
+      margin-bottom: 30px;
+    }
+  }
+}

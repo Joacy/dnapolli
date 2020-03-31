@@ -1,0 +1,58 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@font-face {
+  font-family: "futura-bk-bt";
+  src: url("http://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.eot");
+  src: url("http://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.woff") format("woff"), url("http://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/cc84650569fd07dac022c55b20c66e46.svg#Futura Bk BT") format("svg"); }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none; }
+
+body {
+  width: 100%;
+  height: 100%;
+  color: black;
+  background: #ffffff;
+  font-family: "futura-bk-bt";
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0px;
+  margin: 0px; }
+
+.linha-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.coluna-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.alinha-centro {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.justifica-centro {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+section {
+  padding: 50px 0px; }

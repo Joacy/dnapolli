@@ -1,0 +1,95 @@
+.secao-topo[data-pagina="sobre"] {
+  background: url("../imagens/atuais/PizzaPush.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.secao-topo[data-pagina="cardapio"] {
+  background: url("../imagens/atuais/PizzaPush.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.secao-topo[data-pagina="reservas"] {
+  background: url("../imagens/atuais/PizzaPush.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.secao-topo[data-pagina="contato"] {
+  background: url("../imagens/banner-contato.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.secao-topo {
+  padding: 45px 0px;
+  padding-bottom: 25px;
+  width: 100%;
+  height: 100vh;
+  max-height: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .icone {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+
+    i {
+      font-size: 6px;
+      color: #ffffff;
+      margin: 0px 8px;
+    }
+  }
+
+  .icone:before {
+    content: "";
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0;
+    background: #cccccc;
+    width: 50px;
+    height: 2px;
+  }
+
+  .icone:after {
+    content: "";
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 0;
+    background: #cccccc;
+    width: 50px;
+    height: 2px;
+  }
+}
+
+.secao-topo::before {
+  content: "";
+  display: inline-block;
+  background: rgba(#000000, 0.4);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .secao-topo {
+    h1,
+    .icone {
+      display: none;
+    }
+  }
+}

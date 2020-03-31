@@ -1,0 +1,70 @@
+footer {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  footer .footer1 {
+    padding: 0px 0px;
+    background: #efe6da;
+    background-size: cover; }
+    footer .footer1 .col-sm-12.col-md-6.col-lg-3.p4 i {
+      background: #fff;
+      padding: 5px; }
+    footer .footer1 .col-sm-12.col-md-6.col-lg-3.p4 i:hover {
+      -webkit-transition: 0.7s;
+      -o-transition: 0.7s;
+      transition: 0.7s;
+      background: #e27900;
+      -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      color: #fff; }
+    footer .footer1 .col-sm-12.col-md-6.col-lg-3 {
+      margin: 15px 0px; }
+      footer .footer1 .col-sm-12.col-md-6.col-lg-3 h3 {
+        text-transform: uppercase;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 1px solid;
+        line-height: 40px;
+        margin-bottom: 20px; }
+      footer .footer1 .col-sm-12.col-md-6.col-lg-3 i {
+        margin: 3px; }
+      footer .footer1 .col-sm-12.col-md-6.col-lg-3 ul {
+        list-style-type: none; }
+      footer .footer1 .col-sm-12.col-md-6.col-lg-3 a {
+        color: #5c5c68; }
+      footer .footer1 .col-sm-12.col-md-6.col-lg-3 .business-list a:hover {
+        color: orange;
+        text-decoration: none; }
+      footer .footer1 .col-sm-12.col-md-6.col-lg-3 p {
+        color: #5c5c68; }
+    footer .footer1 input {
+      line-height: 22px;
+      border: 1px solid;
+      border-color: #dad1c2;
+      background-color: transparent;
+      padding: 4px 5px;
+      border-radius: 0;
+      width: 100%;
+      outline: 0;
+      margin-bottom: 10px; }
+    footer .footer1 input:focus {
+      border-color: orange; }
+    footer .footer1 button {
+      background: #000;
+      color: #fff;
+      border: 0;
+      text-transform: uppercase;
+      width: auto;
+      padding: 0 20px;
+      line-height: 35px;
+      margin-bottom: 5px; }
+  footer .footer2 {
+    padding: 25px 0px;
+    background: #e0ceb6; }
+    footer .footer2 h6 {
+      font-size: 14px;
+      font-weight: 400;
+      color: #000000; }
+    @media screen and (max-width: 1200px) {
+      footer .footer2 {
+        margin-bottom: 0px; } }
